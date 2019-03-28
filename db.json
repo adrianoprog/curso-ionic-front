@@ -23,5 +23,9 @@
       "id": "6",
       "nome": "Decoração"
     }
-  ]
+  ],
+  "credenciais": [{
+    "email": "adriano@gmail.com",
+    "senha": "1234"
+  }]
 }

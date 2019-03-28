@@ -10,7 +10,6 @@ import { IonicPage, NavController, NavParams } from "ionic-angular";
   templateUrl: "categorias.html"
 })
 export class CategoriasPage {
-
   bucketUrl: string = API_CONFIG.bucketBaseUrl;
   items: CategoriaDTO[];
 
@@ -25,9 +24,7 @@ export class CategoriasPage {
       response => {
         this.items = response;
       },
-      error => {
-        console.log(error);
-      }
+      error => {}
     );
   }
 }
